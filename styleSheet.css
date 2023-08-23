@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(59, 53, 53)
+}
+.container{
+    max-width: 400px;
+}
+input[type=text],
+input[type=text]:focus{
+    border: none;
+    max-width: 400px;
+
+}
+#submit{
+    border-radius: 8%;
+    max-width: 100px;
+    margin-top: 500px;
+}
+
+.todos li{
+    background-color: #b9b9be;
+    font-weight: bold;
+    
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.notRequiredtodos{
+    display: none !important;
+}
